@@ -1,6 +1,6 @@
 class Config(object):
 
-    SECRET_KEY = 'pianalytix'
+    SECRET_KEY = 'meyada'
 
     SESSION_COOKIE_SECURE = True
     DEFAULT_THEME = None
