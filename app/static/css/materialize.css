@@ -2251,7 +2251,6 @@ a {
 abbr[title] {
   border-bottom: none;
   /* 1 */
-  text-decoration: underline;
   /* 2 */
   -webkit-text-decoration: underline dotted;
      -moz-text-decoration: underline dotted;
@@ -2835,8 +2834,6 @@ video.responsive-video {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -2964,7 +2961,7 @@ ul.staggered-list li {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  padding: 10px 0;
+  padding: 10px 0px;
   color: rgba(255, 255, 255, 0.8);
   background-color: rgba(51, 51, 51, 0.08);
 }
@@ -5133,7 +5130,6 @@ small {
   padding: 10px 8px;
   font-size: 1rem;
   z-index: 2000;
-  background-color: transparent;
   border-radius: 2px;
   color: #fff;
   min-height: 36px;
@@ -6979,7 +6975,7 @@ textarea.materialize-textarea {
   width: 20px;
   background-color: transparent;
   border: 2px solid #5a5a5a;
-  top: 0;
+  top: 0px;
   z-index: 0;
 }
 
@@ -7107,8 +7103,8 @@ textarea.materialize-textarea {
 
 .switch label .lever:after {
   background-color: #F1F1F1;
-  -webkit-box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
-          box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
 input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
@@ -7507,7 +7503,6 @@ input[type=range]::-ms-thumb {
 }
 
 .table-of-contents a {
-  display: inline-block;
   font-weight: 300;
   color: #757575;
   padding-left: 16px;
@@ -7535,8 +7530,6 @@ input[type=range]::-ms-thumb {
   left: 0;
   top: 0;
   margin: 0;
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
   height: 100%;
   height: calc(100% + 60px);
   height: -moz-calc(100%);
@@ -7553,8 +7546,6 @@ input[type=range]::-ms-thumb {
 
 .sidenav.right-aligned {
   right: 0;
-  -webkit-transform: translateX(105%);
-          transform: translateX(105%);
   left: auto;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
@@ -8882,7 +8873,6 @@ input[type=range]::-ms-thumb {
 
 .timepicker-text-container {
   font-size: 4rem;
-  font-weight: bold;
   text-align: center;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
