@@ -3,3 +3,4 @@ numpy==1.22.0
 Flask==1.1.1
 Pillow==9.3.0
 gunicorn
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
